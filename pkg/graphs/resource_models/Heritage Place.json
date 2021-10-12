@@ -16,7 +16,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Heritage Place Function",
                     "nodegroup_id": "49c86c86-122c-11ec-946e-005056957f92",
                     "sortorder": 1,
@@ -35,7 +35,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Resource Summary",
                     "nodegroup_id": "49c86c8f-122c-11ec-946e-005056957f92",
                     "sortorder": 1,
@@ -54,7 +54,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Notes, Comments, Descriptions, etc.",
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Remarks",
                     "nodegroup_id": "49c86c89-122c-11ec-946e-005056957f92",
                     "sortorder": 3,
@@ -73,7 +73,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Resource Name",
                     "nodegroup_id": "49c86c83-122c-11ec-946e-005056957f92",
                     "sortorder": 0,
@@ -408,20 +408,6 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "last_value": "5",
-                        "prefix": "MAPSS-HP-",
-                        "selected_nodegroup": "49c86c86-122c-11ec-946e-005056957f92",
-                        "starting_value": "0000001",
-                        "suffix": "",
-                        "target_node": "49c86c9b-122c-11ec-946e-005056957f92",
-                        "triggering_nodegroups": []
-                    },
-                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
-                    "graph_id": "f9a42769-03ef-11ec-946e-005056957f92",
-                    "id": "3851d7cd-1245-11ec-946e-005056957f92"
-                },
-                {
-                    "config": {
                         "description": {
                             "nodegroup_id": "49c86c86-122c-11ec-946e-005056957f92",
                             "string_template": "<Heritage Place Function Type>"
@@ -439,11 +425,25 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "f9a42769-03ef-11ec-946e-005056957f92",
                     "id": "92ffa8f3-122c-11ec-946e-005056957f92"
+                },
+                {
+                    "config": {
+                        "last_value": "9",
+                        "prefix": "MAPSS-HP-",
+                        "selected_nodegroup": "49c86c86-122c-11ec-946e-005056957f92",
+                        "starting_value": "0000001",
+                        "suffix": "",
+                        "target_node": "49c86c9b-122c-11ec-946e-005056957f92",
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
+                    "graph_id": "f9a42769-03ef-11ec-946e-005056957f92",
+                    "id": "3851d7cd-1245-11ec-946e-005056957f92"
                 }
             ],
             "graphid": "f9a42769-03ef-11ec-946e-005056957f92",
             "iconclass": "fa fa-joomla",
-            "is_editable": true,
+            "is_editable": false,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -790,11 +790,11 @@
                 "c020de45-03f1-11ec-946e-005056957f92",
                 "8a399bdd-03ff-11ec-946e-005056957f92",
                 "8554dc95-03f5-11ec-946e-005056957f92",
-                "cc001a65-03f5-11ec-946e-005056957f92",
                 "37d8eff1-03f5-11ec-946e-005056957f92",
                 "1f9bcec1-03f6-11ec-946e-005056957f92",
                 "80b7cb6f-03f6-11ec-946e-005056957f92",
                 "c9402aff-03f4-11ec-946e-005056957f92",
+                "cc001a65-03f5-11ec-946e-005056957f92",
                 "c3009111-0417-11ec-946e-005056957f92",
                 "f9a42769-03ef-11ec-946e-005056957f92"
             ],
